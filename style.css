@@ -20,9 +20,11 @@
 }
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
+  margin: 0;
   background-color: var(--bg-dark);
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
@@ -60,13 +62,14 @@ body {
   z-index: 2;
   background-image: var(--bg-light);
   grid-column: 1/5;
+  overflow: hidden;
   /* box-shadow: 0px 1px 80px 1px #0ff; */
 }
 
 .nav-logo img {
   width: 60px;
   margin: 5px;
-  padding-top: 5px 10px;
+  padding: 5px 10px;
 }
 
 .wrapper .sidenav-bar {
@@ -79,7 +82,7 @@ body {
 
 .navbar-ul-links {
   display: flex;
-  gap: 25px;
+  gap: 5vw;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -165,8 +168,9 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  font-size: 3rem;
-  margin: 300px 0;
+  font-size: 3vw;
+  margin: 10vw 0 20vw;
+  overflow: hidden;
 }
 .tag-line-container h1 {
   margin-bottom: 0;
@@ -189,7 +193,6 @@ body {
 .tag-line-container p,
 h1,
 a {
-  margin-left: 5rem;
   text-align: center;
 }
 .tag-line-container button {
@@ -227,15 +230,16 @@ a {
 .about-section-container {
   background-image: var(--bg-light);
   text-align: center;
-  margin: auto;
-  margin-bottom: 300px;
-  width: 30%;
+  margin: 20vw 30%;
+  padding: 3vw;
+  width: 50rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   border-radius: 1rem;
   grid-column: 1/5;
+  overflow: auto;
 }
 .about-section-container h2 {
   font-size: 2rem;
@@ -275,6 +279,27 @@ a {
   box-shadow: 0px 0px 40px 1px #0ff;
 }
 
+/* Contact Section  */
+
+.contact-container {
+  margin: 20vw 0;
+  background-image: var(--bg-light);
+  width: 30%;
+  grid-column: 1/5;
+  padding: 2vw;
+  border-radius: 1rem;
+  resize: vertical;
+}
+
+.contact-container input,
+textarea {
+  width: 100%;
+}
+
+#message {
+  height: 200px;
+}
+
 /* Footer Section */
 .footer-container-parent {
   grid-column: 1/5;
@@ -303,6 +328,7 @@ a {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 2vw;
   height: 100%;
 }
 
@@ -321,6 +347,11 @@ a {
   .wrapper .sidenav-bar {
     display: block;
     position: fixed;
+  }
+
+  .tag-line-container {
+    display: flex;
+    text-align: center;
   }
 }
 

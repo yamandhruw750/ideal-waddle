@@ -94,7 +94,6 @@ body {
   text-decoration: none;
   color: var(--text);
   position: relative;
-
 }
 
 #links::before {
@@ -247,7 +246,7 @@ a {
   grid-column: 1/5;
 }
 
-.p-container{
+.p-container {
   background-color: var(--secondary);
   padding: 2rem;
   border-radius: 1rem;
@@ -276,7 +275,7 @@ a {
 }
 
 #cards-container .card-project {
-  width: 275px;
+  width: 375px;
   margin: 30px 20px;
   padding: 50px 20px;
   background-image: var(--bg-light);
@@ -291,7 +290,7 @@ a {
   box-shadow: 0px 0px 40px 1px #0ff;
 }
 
-.bg-dark{
+.bg-dark {
   background-color: var(--secondary);
   padding: 2rem;
   border-radius: 1rem;
@@ -311,11 +310,11 @@ a {
   resize: vertical;
 }
 
-.contact-container h3{
+.contact-container h3 {
   font-size: 2rem;
 }
 
-.contact-container .contact-section{
+.contact-container .contact-section {
   background-color: var(--secondary);
   padding: 20px;
   color: var(--text);
@@ -335,8 +334,6 @@ textarea {
   background: var(--primary);
 }
 
-
-
 /* Footer Section */
 .footer-container-parent {
   grid-column: 1/5;
@@ -355,13 +352,13 @@ textarea {
   bottom: 60px;
 }
 
-.footer-links, .get-in-touch-links{
+.footer-links,
+.get-in-touch-links {
   margin: 0;
   padding: 2rem;
   text-align: center;
-  list-style-type: none
+  list-style-type: none;
 }
-
 
 /* Responsive  */
 

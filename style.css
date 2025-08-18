@@ -283,8 +283,9 @@ a {
 
 .contact-container {
   margin: 20vw 0;
+  margin: auto;
   background-image: var(--bg-light);
-  width: 30%;
+  max-width: 30%;
   grid-column: 1/5;
   padding: 2vw;
   border-radius: 1rem;

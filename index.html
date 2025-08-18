@@ -64,18 +64,22 @@
 
       <div class="about-section-container" id="about-section-container">
         <h2>About Me</h2>
-        <p>
-          Hey there! I'm a full-stack developer who loves crafting everything
-          from sleek front-end interfaces to rock-solid backend systems. I
-          thrive on solving real problems with clean, efficient code — and yes,
-          I spend a healthy amount of time on Stack Overflow (who doesn't?).
-          Whether it's building pixel-perfect UIs with React or wrangling APIs
-          and databases like a backend ninja, I bring creativity, logic, and
-          just the right amount of caffeine to every project. When I'm not
-          coding, you'll probably find me breaking things just to fix them
-          better. Let's build something awesome together!
-        </p>
+        <div class="p-container">
+          <p>
+            Hey there! I'm a full-stack developer who loves crafting everything
+            from sleek front-end interfaces to rock-solid backend systems. I
+            thrive on solving real problems with clean, efficient code — and
+            yes, I spend a healthy amount of time on Stack Overflow (who
+            doesn't?). Whether it's building pixel-perfect UIs with React or
+            wrangling APIs and databases like a backend ninja, I bring
+            creativity, logic, and just the right amount of caffeine to every
+            project. When I'm not coding, you'll probably find me breaking
+            things just to fix them better. Let's build something awesome
+            together!
+          </p>
+        </div>
       </div>
+
       <div class="cards-container" id="cards-container">
         <div class="card-project">
           <div id="gif">
@@ -83,11 +87,13 @@
           </div>
           <h3>Portfolio Website</h3>
           <img src="img/Screenshot 2025-07-19 010744.png" alt="" width="100%" />
-          <p>
-            A Personal portfolio built with HTML, CSS, and JavaScript, smooth
-            scrolling, Dark mode, Project showcase included.
-          </p>
-          <p>Tech: HTML, CSS, JavaScript</p>
+          <div class="bg-dark">
+            <p>
+              A Personal portfolio built with HTML, CSS, and JavaScript, smooth
+              scrolling, Dark mode, Project showcase included.
+            </p>
+            <p>Tech: HTML, CSS, JavaScript</p>
+          </div>
         </div>
 
         <div class="card-project">
@@ -96,11 +102,13 @@
           </div>
           <h3>Portfolio Website</h3>
           <img src="img/Screenshot 2025-07-19 010744.png" alt="" width="100%" />
-          <p>
-            A Personal portfolio built with HTML, CSS, and JavaScript, smooth
-            scrolling, Dark mode, Project showcase included.
-          </p>
-          <p>Tech: HTML, CSS, JavaScript</p>
+          <div class="bg-dark">
+            <p>
+              A Personal portfolio built with HTML, CSS, and JavaScript, smooth
+              scrolling, Dark mode, Project showcase included.
+            </p>
+            <p>Tech: HTML, CSS, JavaScript</p>
+          </div>
         </div>
 
         <div class="card-project">
@@ -109,11 +117,13 @@
           </div>
           <h3>Portfolio Website</h3>
           <img src="img/Screenshot 2025-07-19 010744.png" alt="" width="100%" />
-          <p>
-            A Personal portfolio built with HTML, CSS, and JavaScript, smooth
-            scrolling, Dark mode, Project showcase included.
-          </p>
-          <p>Tech: HTML, CSS, JavaScript</p>
+          <div class="bg-dark">
+            <p>
+              A Personal portfolio built with HTML, CSS, and JavaScript, smooth
+              scrolling, Dark mode, Project showcase included.
+            </p>
+            <p>Tech: HTML, CSS, JavaScript</p>
+          </div>
         </div>
 
         <div class="card-project">
@@ -122,43 +132,49 @@
           </div>
           <h3>Portfolio Website</h3>
           <img src="img/Screenshot 2025-07-19 010744.png" alt="" width="100%" />
-          <p>
-            A Personal portfolio built with HTML, CSS, and JavaScript, smooth
-            scrolling, Dark mode, Project showcase included.
-          </p>
-          <p>Tech: HTML, CSS, JavaScript</p>
+          <div class="bg-dark">
+            <p>
+              A Personal portfolio built with HTML, CSS, and JavaScript, smooth
+              scrolling, Dark mode, Project showcase included.
+            </p>
+            <p>Tech: HTML, CSS, JavaScript</p>
+          </div>
         </div>
       </div>
       <form class="contact-container">
+        <h3>Contact Us</h3>
         <div class="contact-section">
-          <h3>Contact Us</h3>
-          <hr>
           <label for="name">Full Name: </label>
-          <input type="text" id="name" placeholder="Your name..."><br><br>
+          <input type="text" id="name" placeholder="Your name..." /><br /><br />
           <label for="email">Email:</label>
-          <input type="email0" id="email" placeholder="Your email..."><br><br>
-          <label for="message">Message: </label><br>
-          <textarea name="message" id="message" placeholder="Write message..."></textarea><br><br>
-          <input type="submit" value="Submit">
+          <input
+            type="email0"
+            id="email"
+            placeholder="Your email..."
+          /><br /><br />
+          <label for="message">Message: </label><br />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write message..."
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="Submit" id="Submit-button" />
         </div>
       </form>
       <footer class="footer-container-parent">
-        <div class="footer-container">
-          <div class="footer-content">
-            <ul class="footer-links" id="footer-links-id">
-              <li id="li-links"><a href="" id="links">Price</a></li>
-              <li id="li-links"><a href="" id="links">About</a></li>
-              <li id="li-links"><a href="" id="links">Contact</a></li>
-            </ul>
-            <ul class="get-in-touch-links">
-              <li id="li-links"><a href="" id="links">Facebook</a></li>
-              <li id="li-links"><a href="" id="links">Twitter</a></li>
-              <li id="li-links"><a href="" id="links">LinkedIn</a></li>
-            </ul>
-            <div class="gif">
-              <img src="img/One Piece Hat Sticker (1).gif" alt="" />
-            </div>
-          </div>
+        <ul class="footer-links" id="footer-links-id">
+          <li id="li-links"><a href="" id="links">Price</a></li>
+          <li id="li-links"><a href="" id="links">About</a></li>
+          <li id="li-links"><a href="" id="links">Contact</a></li>
+        </ul>
+        <ul class="get-in-touch-links">
+          <li id="li-links"><a href="" id="links">Facebook</a></li>
+          <li id="li-links"><a href="" id="links">Twitter</a></li>
+          <li id="li-links"><a href="" id="links">LinkedIn</a></li>
+        </ul>
+        <div class="gif">
+          <img src="img/One Piece Hat Sticker (1).gif" alt="" />
         </div>
       </footer>
       <p style="color: white; text-align: center">

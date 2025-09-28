@@ -310,8 +310,21 @@ a {
   resize: vertical;
 }
 
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 12px;
+  border: solid 1px #ccc;
+  border-radius: 0.5em;
+  width: 100%;
+  margin-top: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
 .contact-container h3 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .contact-container .contact-section {
@@ -321,18 +334,16 @@ a {
   border-radius: 1rem;
 }
 
-.contact-container input,
-textarea {
-  width: 100%;
-}
-
 #Submit-button {
+  border-radius: 0.5em;
   width: 10rem;
   margin: auto;
   padding: 15px;
   border: none;
   background: var(--primary);
 }
+/* Contact Section Ends */
+
 
 /* Footer Section */
 .footer-container-parent {
